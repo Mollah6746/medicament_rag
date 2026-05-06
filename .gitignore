@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Données personnelles et volumineuses
+data/
+*.csv
+*.txt
+
+# Index vectoriels (FAISS)
+*.index
+*.json
+
+# Variables d'environnement (Sécurité !)
+.env
+.env
+venv/
+__pycache__/
+*.xlsx
+*.index
+*.json
